@@ -1,0 +1,165 @@
+html body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif, sans-serif;
+    background-color: #e1f6e8;
+
+  }
+  .logo {
+    width: 200px;
+    margin-left: -59px;  
+  }
+  .nav {
+    background: rgb(245, 225, 76) ;
+    color: white;
+    height: 200px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+  }
+  .nav li a {
+    text-decoration: none; 
+    color: #333;
+    font-weight: bold;
+    padding-right: 30px;
+  }
+  .nav li a:hover {
+    color: olivedrab;
+  }
+  .intro {
+    background: url(/imagens/banner.png);
+    height: 100%;
+    text-align: center;
+    margin-top: 10px;
+    background-size: cover;
+  }
+  .intro h1 {
+    font-size: 36px;
+    color: #023b02;
+    padding-top: 10%;
+  }
+  .intro p {
+    font-size: 18px;
+    color: #0e5314;
+    padding-bottom: 20%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .icone {
+    width: 55px;
+  }
+  .content div {
+    background-color: #d3e3dac5;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  .content div h3 {
+    font-size: 24px;
+    color: #333;
+  }
+  .content div p {
+    font-size: 16px;
+    color: #666;
+    text-align: justify;
+  }
+  .coluna {
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 40%;
+  }
+  section{
+    padding: 30px;
+    float: left;
+  }
+  h4{
+    text-align: center;
+  }
+  #outracoluna {
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 15%;
+  }
+  .selecao{
+    background-color: #fff;
+    padding: 10%;
+    text-align: center;
+  }
+  #efeito {
+    display: block;
+    text-align: right;
+    text-decoration: none;
+    color: rgb(52, 82, 4);
+    font-weight: bold;
+  }
+  #efeito:hover {
+    color: olivedrab;
+  }
+  .destaque {
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    grid-gap: 30px;
+    margin-top: 20px;
+  }
+  .destaque div {
+    background-color: #ffffffac;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  .destaque div h3 {
+    font-size: 24px;
+    color: #333;
+  }
+  .destaque div p {
+    font-size: 16px;
+    color: #666;
+    text-align: justify;
+  }
+  .colunaA {
+    float: right;
+    padding: 0 5%;
+    position: relative;
+    width: 40%;
+  }
+  .foto {
+    height: 300px;
+    padding-right: 0px;
+    margin-left: 150px;
+  }
+  .sobremim div p{
+    text-align: justify;
+    color: rgb(19, 29, 2);
+  }
+  .sobremim div h3{
+    text-align: center;
+    color: rgb(33, 49, 5);
+  }
+  footer {
+    background: rgb(245, 225, 76);
+    color: #333f;
+    text-align: center;
+    float: left;
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  /* --responsividade--*/
+  @media all and (max-width: 768px){
+    .nav li{
+      visibility: hidden;
+    }
+    .nav, .intro, .content, .coluna, .colunaA, #outracoluna, .destaque, .sobremim, foo{
+      display: block;
+      width: 80%;
+      padding: 0;
+      margin: 10px, auto;
+      float: none;
+    }
+    .foto{
+      margin-left: 0px;
+    }
+  }
+   
+ 
+  
