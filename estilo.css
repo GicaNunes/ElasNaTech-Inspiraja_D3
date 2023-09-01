@@ -26,7 +26,7 @@ html body {
     color: olivedrab;
   }
   .intro {
-    background: url(/imagens/banner.png);
+    background: url(imagens/banner.png);
     height: 100%;
     text-align: center;
     margin-top: 10px;
